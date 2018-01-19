@@ -1,6 +1,17 @@
-# CacheEasy
+# CacheEasy [中文版](https://github.com/joyieldInc/cacheeasy/blob/master/README_CN.md)
 
 A redis private cloud platform
+
+# Features
+
++ Supports redis standalone and redis cluster
++ Uses redis sentinel for redis standalone automatic
++ With redis proxy [predixy](https://github.com/joyieldInc/predixy), the redis client don't consider redis sentinel or redis cluster
++ Create redis service quickly
++ Show service status by Grafana
++ Scale redis service easy
++ Alert monitor
++ Easy to use, don't require root
 
 # QuickStart
 
@@ -24,11 +35,4 @@ eg.
 Open your browser and visit
 
     http://server_name:7800
-
-## 5. Login and change password
-Login CacheEasy with username **admin**, the admin password can get in conf/cacheeasy.conf, default is **admin** too. You must login admin with default password and change it ASAP.
-
-## 6. Add Machine
-
-## 7. Create Cluster
 
