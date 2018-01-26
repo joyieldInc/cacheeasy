@@ -6,12 +6,13 @@
 
 + 支持经典的redis standalone模式和集群版的redis cluster模式
 + 自动采用redis sentinel实现redis standalone模式的高可用部署
-+ 集成高性能、全特性的redis代理软件[predixy](https://github.com/joyieldInc/predixy)，客户端无需关心redis部署模式
-+ 快速创建部署redis服务
-+ 轻松扩容、缩容
-+ 丰富的可视化数据展示，服务运行状态一目了然，追查问题得心应手
-+ 内置报警监控系统，出现问题及时发出通知
-+ 简单方便，解压即用，无需root权限
++ 集成高性能、全特性的redis代理软件[predixy](https://github.com/joyieldInc/predixy)。让客户端无需关心redis的部署模式，轻松访问服务。
++ 依托predixy的强大功能，支持主从读写分离、全节点scan命令、多密码认证读写权限控制等。
++ 高效创建、部署redis服务，轻松扩容、缩容。
++ 集成时间序列数据采集存储工具[prometheus](https://prometheus.io/)，自动采集各种metrics数据。
++ 集成专业的metrics图形化展示工具[grafana](https://grafana.com/)，可视化的展示采集的各种数据，几十个dashboard页面无缝集成，上百种指标让你对服务状态了如指掌，追查问题得心应手。
++ 内置报警监控系统，全面监控服务运行状态，出现问题及时发出通知报警。
++ 使用简单方便，解压即用，无需root权限。
 
 # 快速开始
 
